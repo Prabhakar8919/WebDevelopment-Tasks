@@ -1,0 +1,60 @@
+/* Apply a mesmerizing background image */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+main {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+button {
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #ffa500;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ff8c00;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
