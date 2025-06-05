@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Project</title>
+  <link rel="stylesheet" href="style3.css" />
+</head>
+<body>
+  <header>
+    <h1>My Advanced Web Project</h1>
+     <nav>
+  <ul>
+    <li><a href="#" onclick="showSection('home')">Home</a></li>
+    <li><a href="#" onclick="showSection('quiz')">Quiz</a></li>
+    <li><a href="#" onclick="showSection('joke')">Jokes</a></li>
+  </ul>
+</nav>
+
+
+
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <h2>Welcome</h2>
+      <p>This site demonstrates advanced responsive design and interactivity using JavaScript.</p>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="section hidden">
+      <h2 id="question">Loading question...</h2>
+      <div id="answers" class="answer-buttons"></div>
+      <button id="nextBtn">Next</button>
+    </section>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h2>Welcome</h2>
+    <p>This site demonstrates advanced responsive design and interactivity using JavaScript.</p>
+  </section>
+
+  <!-- Quiz Section -->
+  <section id="quiz" class="section hidden">
+    <h2 id="question">Loading question...</h2>
+    <div id="answers" class="answer-buttons"></div>
+    <button id="nextBtn">Next</button>
+  </section>
+
+  <!-- Joke Section -->
+  <section id="joke" class="section hidden">
+    <h2>😂 Need a Laugh?</h2>
+    <div id="jokeBox">Click the button to get a joke!</div>
+    <button id="jokeBtn">Get Joke</button>
+  </section>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <script src="script3.js"></script>
+</body>
+</html>
